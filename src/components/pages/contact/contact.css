@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "PT Sans", sans-serif;
+}
+
+@media screen and (min-width: 375px) {
+  .contact-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+  }
+  .contact-pages-title {
+    font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 18%;
+    font-size: 1.6em;
+    color: var(--color-white);
+    /* z-index: 3; */
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-pages-title {
+    font-size: 2em;
+  }
+}

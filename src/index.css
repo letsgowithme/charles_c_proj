@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+:root {
+  --bg-color: #506470;
+  --bg-nav-color: rgba(67, 67, 89, 0.892);
+  --bg-color-main-title: #69808ff5;
+  --bg-color-menu-active: #242222;
+  --bg-darkblue: rgb(28, 28, 79);
+  --bg-bluegray: rgba(40, 40, 94, 0.645);
+  --bg-lightgray: rgba(255, 255, 255, 0.681);
+  --bg-links-hover: #546f8b;
+  --bg-btn: rgb(92, 66, 100);
+  --color-white: #fff;
+  --color-primary: rgb(4, 4, 222);
+
+  --transition: all 0.5s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color);
+  color: var(--color-white);
+  z-index: -2;
+  position: relative;
+}
+a {
+  color: var(--color-white);
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--color-light);
+  border-radius: 10px;
+}
+.pages-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 40em;
+  opacity: 0.7;
+}
+.footer {
+  position: absolute;
+  bottom: 0; 
+  width: 100%;
+
+  /* Hauteur du pied de page */
+  color: var(--color-white);
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mentionsLegales,
+.copyright {
+  background: var(--bg-nav-color);
+  color: var(--bg-lightgray);
+  padding: 0 10px;
+  font-size: 1em;
+}
+
+.mentionsLegales:hover {
+  background: var(--bg-lightgray);
+  color: var(--bg-nav-color);
+}
+.copyright {
+  width: 320px;
+}
+@media screen and (min-width: 375px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
