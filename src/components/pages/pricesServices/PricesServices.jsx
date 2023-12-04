@@ -21,14 +21,17 @@ const PricesServices = () => {
       <h1 className="page-title prices-page-title" id="upPage">
         Tarifs et prestations :
       </h1>
+      
+     
       <PricesServicesCards />
-
+     
       <a href="#upPage">
         <FaArrowCircleUp className="up" />
       </a>
       <div id="prices-footer">
         <Footer />
       </div>
+      
     </div>
   );
 };

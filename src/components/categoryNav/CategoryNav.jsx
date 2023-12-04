@@ -33,7 +33,7 @@ const Navbar = () => {
     <div style={{ width: "100%", marginBottom: "3em" }} className="burger-box">
       <nav>
         <div className="burger-menu" onClick={updateMenu}>
-          <div className={burger_class}>Categories</div>
+          <div className={burger_class}>Choisir la categorie</div>
         </div>
       </nav>
       <div className={gallery_class}>

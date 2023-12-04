@@ -52,15 +52,7 @@
     height: 1.3em;
     cursor: pointer;
   }
-  .close-icon {
-    color: rgb(46, 45, 45);
-    border-radius: 50%;
-    z-index: 10;
-    font-size: 2rem;
-    width: 1.3em;
-    height: 1.3em;
-    cursor: pointer;
-  }
+
   .hidden {
     display: none;
   }
@@ -101,42 +93,42 @@
 @media screen and (min-width: 1024px) {
   .slider {
     top: 7em;
-    left: 15em;
+    left: 18em;
   }
 
   .slider-img {
-    width: 550px;
-    height: 400px;
+    margin-top: 10%;
+    width: 750px;
+    height: 570px;
     border-radius: 10px;
   }
 
   .close-icon {
-    top: -18%;
-    right: -1.4%;
+    top: -12%;
+    right: -1.1%;
     width: 2em;
     height: 2em;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .slider {
-    top: 11em;
-    left: 50em;
+    top: 9em;
+    left: 38em;
+    margin-bottom: 5em;
   }
  
   .slider-img {
     width: 800px;
-    height: 630px;
+    height: 580px;
     border-radius: 10px;
     
   }
   .close-icon {
-    top: -58%;
-    right: -1%; 
+    top: -40%;
+    right: 0; 
+    width: 50px;
+    height: 50px;
   }
-  .close-icon {
-    top: -45%;
-   
-   
-  }
+  
   
 }
