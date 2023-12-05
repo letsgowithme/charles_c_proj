@@ -4,6 +4,8 @@ import Home from "./components/pages/home/Home";
 import Gallery from "./components/pages/gallery/Gallery";
 import PricesServices from "./components/pages/pricesServices/PricesServices";
 import Contact from "./components/pages/contact/Contact";
+import MentionsLegales from "./components/pages/mentionsLegales/MentionsLegales";
+import PolicyPrivacy from "./components/pages/policyPrivacy/PolicyPrivacy";
 // import Navbar from "./components/navbar/Navbar";
 
 
@@ -17,6 +19,9 @@ return (
 <Route path="/gallery" element={<Gallery/>}/>
 <Route path="/pricesServices" element={<PricesServices/>}/>
 <Route path="/contact" element={<Contact/>}/>
+
+<Route path="/mentionsLegales" element={<MentionsLegales/>}/>
+<Route path="/policyPrivacy" element={<PolicyPrivacy/>}/>
 {/* <Route path="*" element={<NotFound/>}/> */}
 </Routes>
 </>
