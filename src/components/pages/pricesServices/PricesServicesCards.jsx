@@ -25,10 +25,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « Juste moi »<br></br> 130 euros
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Séance pour une personne, en extérieur ou en studio
             </Typography>
           </CardContent>
@@ -44,10 +44,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « Pour deux »<br></br> 195 euros
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Pour deux personnes, en extérieur ou en studio
             </Typography>
           </CardContent>
@@ -64,10 +64,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « Famille »<br></br> 220 euros
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Pour la famille ou les amis jusqu’à 4 personnes,en extérieur ou en
               studio 30 euros en supplément par personne au-delà de 4 (hormis
               enfant jusqu’à 2 ans)
@@ -85,10 +85,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « Il était une fois »<br></br> 160 euros
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Photo de grossesse (À votre domicile, en extérieur ou en studio)
             </Typography>
           </CardContent>
@@ -104,10 +104,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « Mon bébé »<br></br> 100 euros
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Photo d’enfant jusqu’à 3 ans (photo à domicile)
             </Typography>
           </CardContent>
@@ -123,10 +123,10 @@ export default function PricesServicesCards() {
             className="card-img"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography gutterBottom variant="h5" component="div" className="prices_card_title">
               « J’immortalise l’événement »<br></br> sur mesure
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" className="text_sec_prices">
               Prestation de mariage ou baptême sur devis
             </Typography>
           </CardContent>

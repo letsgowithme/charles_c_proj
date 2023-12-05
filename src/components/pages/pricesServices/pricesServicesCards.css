@@ -16,6 +16,12 @@
     border: 1px solid darkgray;
     border-radius: 10px;
   }
+  .prices_card_title{
+    color: black;
+  }
+  .text_sec_prices{
+    font-size: 1.5em!important;
+  }
 
   .card-img {
     height: 100%;
@@ -60,16 +66,19 @@
   .card-img {
     height: 70%;
   }
+  .text_sec_prices{
+    font-size: 1.3em!important;
+  }
 }
 @media screen and (min-width: 1280px) {
   .cards-container {
-    gap: 15px 40px;
+    gap: 10px 40px;
    
   }
 
   .card-item {
     margin: 1em;
-    width: 350px;
+    width: 400px;
     height: auto;
   }
 }
