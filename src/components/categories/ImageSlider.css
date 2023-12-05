@@ -13,7 +13,7 @@
     
   }
   .slider-img {
-    width: 400px;
+    width: 360px;
     height: 350px;
     border: 10px solid white;
     
@@ -42,11 +42,11 @@
 
   .close-icon {
     position: absolute;
-    top: -10%;
-    right: 2%;
-    color: rgb(46, 45, 45);
+    top: -43%;
+    right: 42%;
+    color: black!important;
     border-radius: 50%;
-    z-index: 10;
+    z-index: 11!important;
     font-size: 2rem;
     width: 1.3em;
     height: 1.3em;
@@ -56,6 +56,7 @@
   .hidden {
     display: none;
   }
+ 
 }
 @media screen and (min-width: 560px) {
   .slider-img {
@@ -65,7 +66,7 @@
 }
 @media screen and (min-width: 768px) {
   .slider {
-    margin-top: 23%;
+    margin-top: 37%;
     left: 45%;
     transform: translateX(-50%);
   }
@@ -84,15 +85,16 @@
   }
   .close-icon {
     position: absolute;
-    top: -22%;
-    right: -1%;
+    top: -52%;
+    right: 41%;
     width: 2em;
     height: 2em;
+   
   }
 }
 @media screen and (min-width: 1024px) {
   .slider {
-    top: 7em;
+    top: 17em;
     left: 18em;
   }
 
@@ -104,8 +106,8 @@
   }
 
   .close-icon {
-    top: -12%;
-    right: -1.1%;
+    top: -42%;
+    right: 41%;
     width: 2em;
     height: 2em;
   }
@@ -113,21 +115,22 @@
 @media screen and (min-width: 1280px) {
   .slider {
     top: 9em;
-    left: 38em;
+    left: 50em;
+    transform: translateX(-50%);
     margin-bottom: 5em;
   }
  
   .slider-img {
     width: 800px;
-    height: 580px;
+    height: 550px;
     border-radius: 10px;
     
   }
   .close-icon {
-    top: -40%;
-    right: 0; 
-    width: 50px;
-    height: 50px;
+    top: -56%;
+    right: 44%; 
+    width: 80px;
+    height: 80px;
   }
   
   

@@ -1,6 +1,6 @@
 @media screen and (min-width: 375px) {
   body {
-    overflow-y: hidden;
+    overflow-y: hidden!important;
     text-align: center;
   }
 
@@ -29,6 +29,10 @@
     width: 150px;
     height: 100px;
   }
+  #gallery_footer{
+    position: absolute;
+    bottom: 0%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -51,6 +55,12 @@
     width: 238px;
     height: 180px;
   }
+  #gallery_footer{
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -61,7 +71,7 @@
     position: absolute;
     top: 28%;
     left: 40%;
-    transform: translateX(-50%);
+    transform: translateX(-48%);
     
   }
   
@@ -69,10 +79,7 @@
     width: 240px;
     height: 180px;
   }
-  .footer{
-    position: absolute;
-    bottom: 0%;
-  }
+
   .category-block{
     width: auto;
   }

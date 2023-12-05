@@ -23,7 +23,7 @@ const Gallery = () => {
         <div>
         <CategoryNav className="category-nav" />
         </div>
-        <div>
+        <div id="gallery_footer">
         <Footer />
         </div>
         
