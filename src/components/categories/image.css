@@ -1,9 +1,5 @@
 @media screen and (min-width: 375px) {
-  /* body {
-    overflow-y: visible;
-    height: auto;
-  } */
-  .btn_md-lg {
+    .btn_md-lg {
     display: block;
   }
   .btn-category,

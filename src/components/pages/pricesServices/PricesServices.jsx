@@ -8,7 +8,7 @@ import { FaArrowCircleUp } from "react-icons/fa";
 
 const PricesServices = () => {
   return (
-    <div className="prices_services_page-container">
+    <div className="prices_services_page-container container">
       <div>
         <img
           src={PricesServices_bg}
@@ -28,6 +28,7 @@ const PricesServices = () => {
       <a href="#upPage">
         <FaArrowCircleUp className="up" />
       </a>
+      
       <div id="prices-footer">
         <Footer />
       </div>
