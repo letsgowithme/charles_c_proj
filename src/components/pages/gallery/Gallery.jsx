@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../header/Header";
-import "./gallery.css";
+// import "./gallery.css";
+import "../../main.css";
 import CategoryNav from "../../categoryNav/CategoryNav";
 import GalleryBg from "../../../assets/pages_bg.png";
 import Footer from "../../footer/Footer";
@@ -14,7 +15,7 @@ const Gallery = () => {
             src={GalleryBg}
             alt="abstrait"
             className="pages-bg"
-            style={{ minHeight: "100%" }}
+            style={{ minHeight: "100%", zIndex: "-2" }}
           />
         </div>
         <div>

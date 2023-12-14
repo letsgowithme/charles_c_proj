@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../header/Header";
 import MainTitle from "../../mainTitle/MainTitle";
-import "./home.css";
+// import "./home.css";
+import "../../main.css";
 import Photographer from "../../../assets/photographer.jpg";
 import Footer from "../../footer/Footer";
 

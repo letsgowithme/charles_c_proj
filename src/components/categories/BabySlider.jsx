@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BabySliderData } from "./BabySliderData";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaTimesCircle } from "react-icons/fa";
 import "./ImageSlider.css";
+// import "../main.css";
 
 const BabySlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);

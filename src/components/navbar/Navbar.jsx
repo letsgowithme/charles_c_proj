@@ -27,9 +27,9 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/"
-              className={({ isActive }) =>
-                isActive ? "nav-links.active" : "nav-links.inactive"
-              }
+              className="nav-links"
+              // className={({ isActive }) =>
+              //   isActive ? "nav-links.active" : "nav-links.inactive"}
               onClick={closeMobileMenu}
             >
               Accueil
@@ -38,7 +38,8 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/gallery"
-              className={click ? "nav-links clicked2" : "nav-links"}
+              className="nav-links"
+              // className={click ? "nav-links clicked2" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Galerie
@@ -47,7 +48,8 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/pricesServices"
-              className={click ? "nav-links clicked2" : "nav-links"}
+              className="nav-links"
+              // className={click ? "nav-links clicked2" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Tarifs et prestation
@@ -56,7 +58,8 @@ function Navbar() {
           <li className="nav-item">
             <Link
               to="/contact"
-              className={click ? "nav-links clicked2" : "nav-links"}
+              className="nav-links"
+              // className={click ? "nav-links clicked2" : "nav-links"}
               onClick={closeMobileMenu}
             >
               Contact

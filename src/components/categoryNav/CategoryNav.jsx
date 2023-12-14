@@ -5,7 +5,8 @@ import FamilyCategory from "../categories/FamilyCategory";
 import BabyCategory from "../categories/BabyCategory";
 import BaptismCategory from "../categories/BaptismCategory";
 import CoupleCategory from "../categories/CoupleCategory";
-import "./categoryNav.css";
+// import "./categoryNav.css";
+import "../main.css";
 import GalleryImages from "../pages/gallery/GalleryImages";
 
 const Navbar = () => {
@@ -23,7 +24,6 @@ const Navbar = () => {
     } else {
       setBurgerClass("burger-title unclicked");
       setMenuClass("menu hidden2");
-     
       setGalleryClass("gallery_collage visible");
     }
     setIsMenuClicked(!isMenuClicked);
