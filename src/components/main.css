@@ -1,0 +1,354 @@
+/* homepage 375px */
+@media screen and (min-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    overflow-y: hidden!important;
+   
+  }
+ 
+  .bg_img-with-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-main_img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    position: center;
+    object-fit: cover;
+    z-index: -1;
+    
+  }
+  /* **************************** */
+  /* *****gallery page* 375px*** */
+
+
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galleryImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+    grid-auto-rows: 110px;
+    height: 65 vh;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .collage_group1 {
+    width: 150px;
+    height: 100px;
+  }
+  /* ------ Navbar and burger menu ----- */
+  .burger-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15em;
+  }
+  nav {
+    position: absolute;
+    top: 2.9%;
+    left: 32%;
+    
+  }
+
+  .burger-menu {
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin-right: 25%;
+    
+  }
+
+  .burger-title{ 
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    z-index: 7;
+  }
+  .burger-title:hover {
+    background-color: var(--bg-lightgray);
+    color: var(--bg-darkblue);
+  }
+
+  .menu {
+    width: 100%;
+    margin-top: -12em;
+  }
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    right: 0.3%;
+    width: 100%;
+    background: transparent; 
+  }
+  .btn {
+    background-color: var(--bg-btn);
+  }
+  .btn_mobile{
+    display: none;
+  }
+
+  /* ------------- sliding menu ------- */
+  .hidden2 {
+    display: none;
+  }
+  .visible {
+    display: inherit;
+  }
+   /* -------------- animation --------------- */
+  /* ---- clicked------ */
+  .burger-title.clicked {
+    background-color: var(--bg-darkblue);
+  }
+  .burger-title.clicked:hover {
+    background-color: var(--bg-lightgray);
+    color: var(--bg-darkblue);
+  }
+  /* *****imageSlider**** */
+  .slider {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+   
+    
+  }
+  .slider-img {
+    width: 360px;
+    height: 320px;
+    border: 10px solid white;
+    
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: -43%;
+    right: 42%;
+    color: black!important;
+    border-radius: 50%;
+    z-index: 11!important;
+    font-size: 2rem;
+    width: 1.3em;
+    height: 1.3em;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+/* *********************************************** */
+/* ------@media screen and (min-width: 768px)---- */
+/* *********************************************** */
+
+
+@media screen and (min-width: 768px) {
+  /* **************************** */
+ /* ****gallery page 768px***** */
+  .galleryImages {
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    row-gap: 50px;
+    height: 80vh;
+    
+  }
+  .collage_group1 {
+    width: 238px;
+    height: 180px;
+  }
+  /* ------ Navbar and burger menu ----- */
+  .burger-title{ 
+  
+  margin-top: 4em;
+    margin-left: 5em;
+  }
+  /* ******imageSlider**** */
+  .slider {
+    /* margin-top: 37%; */
+    left: 45%;
+    transform: translateX(-50%);
+    
+  }
+  .slider-img {
+    width: 630px;
+    height: 650px!important;
+    border-radius: 10px;
+  }
+  .right-arrow {
+    right: 15px;
+    font-size: 3rem;
+  }
+  .left-arrow {
+    left: 15px;
+    font-size: 3rem;
+  }
+  .close-icon {
+    position: absolute;
+    top: -52%;
+    right: 41%;
+    width: 2em;
+    height: 2em;
+   
+  }
+}
+/* *********************************************** */
+/* ------@media screen and (min-width: 1024px)---- */
+/* *********************************************** */
+
+@media screen and (min-width: 1024px) {
+  .bg-main_img {
+    width: 100%;
+    height: 85vh;
+    max-height: 840px;
+  }
+  .bg-main_img {
+    top: 6%;
+  
+  }
+  /* **************************** */
+   /* ****gallery page 1024px***** */
+   .galleryImages {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: 270px;
+    left: 55%;
+    transform: translateX(-48%);
+    width: 900px;
+    position: absolute;
+    
+  }
+  .collage_group1 {
+    width: 240px;
+    height: 180px;
+  }
+
+  .category-block{
+    width: auto;
+  }
+  /* ------ Navbar and burger menu 1024px----- */
+  .burger-title{
+    width: 25em;
+    background-color: var(--bg-nav-color);
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 1.8em;
+    cursor: pointer;
+    margin-top: 19%;
+    margin-left: 20%;
+    
+  }
+  .menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px -10px;
+    grid-auto-rows: minmax(50px, auto);
+    top: 17%;
+    left: -2%;
+  
+  }
+  .menu-list li {
+    width: 25em;
+    margin: 5px;
+    padding: 1px;
+    font-size: 1em;
+  }
+}
+/* *********************************************** */
+/* ------@media screen and (min-width: 1280px)---- */
+/* *********************************************** */
+
+
+@media screen and (min-width: 1280px) {
+  /* **************************** */
+  /* ****gallery page 1280px***** */
+  .galleryImages {
+    grid-template-columns: repeat(4, 1fr);
+    top: 28%;
+    left: 43%;
+    transform: translateX(-40%);
+    width: 1200px;
+  }
+  .collage_group1 {
+    width: 280px;
+    height: 180px;
+  }
+   /* ------ Navbar and burger menu 1280px----- */
+
+   .menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px 1px;
+    justify-content: space-between;
+    width: 80%;
+    left: 10%;
+
+  }
+
+  .burger-title {
+    position: relative;
+    cursor: pointer;
+    margin-top: 25%;
+    margin-left: 26%;
+  }
+}

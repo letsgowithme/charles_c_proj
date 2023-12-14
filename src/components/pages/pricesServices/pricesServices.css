@@ -67,11 +67,18 @@
  
  } 
 @media screen and (min-width: 1024px) {
- 
+  body {
+    scroll-behavior: auto;
+    overflow-y: hidden!important;
+  }
   #prices-footer {
     margin-top: 55em;
     margin-bottom: 1em;
     width: 300px;
+  }
+  .prices-page-title {
+    margin-top: 14%;
+   
   }
 }
 @media screen and (min-width: 1280px) {
@@ -79,6 +86,10 @@
   margin-top: 10%;
     margin-bottom: 1em;;
     
+  }
+  .prices-page-title {
+    margin-top: 7%;
+   
   }
   
 }
